@@ -14,7 +14,7 @@ function Colors({handleRadioChange}) {
         <Input 
           handleRadioChange={handleRadioChange}
           value="black"
-          title="Black"
+          title="Černá"
           name="colors"
           color="black"
         />
@@ -22,7 +22,7 @@ function Colors({handleRadioChange}) {
         <Input 
           handleRadioChange={handleRadioChange}
           value="blue"
-          title="Blue"
+          title="Modrá"
           name="colors"
           color="blue"
         />
@@ -30,7 +30,7 @@ function Colors({handleRadioChange}) {
         <Input 
           handleRadioChange={handleRadioChange}
           value="red"
-          title="Red"
+          title="Červená"
           name="colors"
           color="red"
         />
@@ -38,14 +38,14 @@ function Colors({handleRadioChange}) {
         <Input 
           handleRadioChange={handleRadioChange}
           value="green"
-          title="Green"
+          title="Zelená"
           name="colors"
           color="green"
         />
 
         <label className="sidebar-label-container">
           <input type="radio" onChange={handleRadioChange} value="white" name='colors'/>
-          <span className='checkmark' style={{background: "white", border: "2px solid black"}}></span>White
+          <span className='checkmark' style={{background: "white", border: "2px solid black"}}></span>Bílá
         </label>   
     </div>
   )
